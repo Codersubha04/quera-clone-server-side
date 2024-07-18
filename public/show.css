@@ -1,0 +1,51 @@
+ *{ 
+Margin:0;
+Padding:0;
+Box-sizing: border-box;
+Font-family: 'Gilroy';
+}
+
+html,body{
+Width:100%;
+Height:100%;
+}
+body{
+    background-color: #000;
+}
+h1{
+    text-align: center;
+    color: crimson;
+}
+.user{
+    height: 50vh;
+    width: 50%;
+    background-color: rgb(26, 26, 26);
+    margin: 3vw auto;
+    color: #fff;
+}
+.id{
+    margin: 1vw;
+}
+.username{
+    color: #fff;
+    font-style: italic;
+    margin-bottom: 2vw;
+
+}
+.content{
+    color: #fff;
+    text-align: center;
+}
+button{
+    padding: 1vw 2.5vw;
+    background-color: #000;
+    color: crimson;
+    border: 2px solid crimson;
+    border-radius: 10px;
+    margin-left: 20vw;
+    margin-top: 10vw;
+}
+button a{
+    text-decoration: none;
+    color: crimson;
+}

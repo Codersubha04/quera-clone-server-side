@@ -1,0 +1,63 @@
+ *{ 
+Margin:0;
+Padding:0;
+Box-sizing: border-box;
+Font-family: 'Gilroy';
+}
+
+html,body{
+Width:100%;
+Height:100%;
+}
+body{
+    background-color: #000;
+}
+h1{
+    color: crimson;
+    text-align: center;
+}
+.edit {
+    height: 65vh;
+    width: 30vw;
+    margin: auto;
+    border: 1px solid #e9e9e9;
+    border-radius: 10px;
+    background-color: rgb(22, 22, 22);
+    color: #fff;
+    margin-top: 5vw;
+
+}
+form {
+    width: 90%;
+    height: 100%;
+    margin-top: 2vw;
+    padding: 2vw;
+}
+.id{
+    margin-bottom: 2vw;
+}
+.name{
+    color: crimson;
+}
+.content-label{
+    position: relative;
+    left: 2vw;
+    top: 10vw;
+}
+.content{
+margin-top: 5vw;
+width: 80%;
+margin-left: 8vw;
+height: 30%;
+background-color: #000;
+color: #fff;
+}
+button {
+    margin-left: 10vw;
+    margin-top: 4vw;
+    padding: 1vw 2.5vw;
+    background-color: #000;
+    color: crimson;
+    border: 1px solid crimson;
+    border-radius: 10px;
+ }

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quera | All Posts</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>Quera Posts</h1>
+    <button class="create-btn"><a href="http://localhost:3000/posts/new">Create New Post</a></button>
+   <% for(post of posts) { %>
+   <div class="user">
+    <h3 class="name">@<%= post.username %> </h3>
+    <h4 class="posts"> <%=post.content %> </h4>
+   <div class="button">
+    <button class="btn see-btn"><a href="http://localhost:3000/posts/<%=post.id%>">See in Details</a></button>
+    <button class="btn edit-btn"><a href="http://localhost:3000/posts/<%=post.id%>/edit">Edit</a></button>
+    <form method="post" action="/posts/<%=post.id%>/?_method=DELETE">
+        <button class="delete-btn">Delete</button>
+    </form>
+   </div>
+   </div>
+    <% } %>
+    
+
+</body>
+</html>

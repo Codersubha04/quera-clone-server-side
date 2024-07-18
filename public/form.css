@@ -1,0 +1,74 @@
+ * {
+     Margin: 0;
+     Padding: 0;
+     Box-sizing: border-box;
+     Font-family: 'Gilroy';
+ }
+
+ html,
+ body {
+     Width: 100%;
+     Height: 100%;
+ }
+
+ body {
+     background-color: #000;
+ }
+
+ .form {
+     height: 65vh;
+     width: 30vw;
+     margin: auto;
+     border: 1px solid #e9e9e9;
+     border-radius: 10px;
+     background-color: rgb(22, 22, 22);
+ }
+
+ form {
+     width: 90%;
+     height: 100%;
+     margin-top: 2vw;
+ }
+
+ .username {
+     margin-left: 2vw;
+     color: crimson;
+ }
+
+ .name {
+     width: 50%;
+     height: 2.5vw;
+     margin: 3vw 1vw 1vw 1vw;
+     color: #fff;
+     background-color: rgb(22, 22, 22);
+
+
+ }
+
+ .content-name {
+    position: relative;
+    top: -2.5vw;
+    left: 2.5vw;
+    color: crimson;
+ }
+
+ .content {
+     width: 55%;
+     height: 5vw;
+     margin: 0vw 3.5vw;
+     color: #fff;
+     background-color: rgb(22, 22, 22);
+
+
+
+ }
+
+ .button {
+    margin-left: 10vw;
+    margin-top: 4vw;
+    padding: 1vw 2.5vw;
+    background-color: #000;
+    color: crimson;
+    border: 1px solid crimson;
+    border-radius: 10px;
+ }

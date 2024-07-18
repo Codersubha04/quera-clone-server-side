@@ -1,0 +1,74 @@
+ *{ 
+Margin:0;
+Padding:0;
+Box-sizing: border-box;
+Font-family: 'Gilroy';
+}
+
+html,body{
+Width:100%;
+Height:100%;
+}
+body{
+    background-color: #000;
+}
+h1{
+    color: crimson;
+    font-size: 3.5vw;
+    font-weight: 700;
+    text-align: center;
+}
+.create-btn{
+  margin-left: 25vw;
+  margin-top: 1vw;
+  margin-bottom: -1vw;
+    padding: 1vw 3vw;
+    background-color: #242424;
+    border: 2px solid crimson;
+    border-radius: 10px;
+}
+.create-btn a{
+    text-decoration: none;
+    color: crimson;
+}
+.user{
+    height: 50vh;
+    width: 50%;
+    background-color: rgb(26, 26, 26);
+    margin: 3vw auto;
+}
+.name{
+    color: #fff;
+    font-style: italic;
+    margin-bottom: 2vw;
+
+}
+.posts{
+    color: #fff;
+    text-align: center;
+    margin-top: 5vw;
+}
+.btn{
+      padding: 1vw 3vw;
+      background-color: #000;
+      border: 2px solid crimson;
+      border-radius: 10px;
+}
+.btn a{
+    text-decoration: none;
+    color: crimson;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10vw;
+    padding: 0 2vw;
+}
+.delete-btn{
+    padding: 1vw 3vw;
+    background-color: #000;
+    border: 2px solid crimson;
+    border-radius: 10px;
+    color: crimson;
+}
